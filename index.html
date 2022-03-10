@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nav files builder</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <label for="files">Choose .nav files to concat</label>
+            <input id="files" type="file" multiple required lang="en" accept=".nav"/>
+            <input type="submit" value="Proceed" />
+        </form>
+        <a id="download" class="download" download="result.all" href="" hidden>Download result</a>
+    </div>
+    <div class="overlay hide">
+        <h3>Loading...</h3>
+    </div>
+</body>
+</html>
